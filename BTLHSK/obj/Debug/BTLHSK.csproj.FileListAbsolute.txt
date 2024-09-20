@@ -1,0 +1,13 @@
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\BTLHSK.exe.config
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\BTLHSK.exe
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\BTLHSK.pdb
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.csproj.AssemblyReference.cache
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.Properties.Resources.resources
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.csproj.GenerateResource.cache
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.csproj.CoreCompileInputs.cache
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.exe
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.pdb
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.Form1.resources
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.Form2.resources
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.FormTinhDiem.resources
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.FormDangNhap.resources

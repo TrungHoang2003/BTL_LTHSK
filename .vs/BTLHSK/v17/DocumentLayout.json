@@ -3,12 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\trung\\source\\repos\\BTLHSK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|C:\\Users\\trung\\source\\repos\\BTLHSK\\btlhsk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -31,27 +35,39 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Form1.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\Form1.Designer.cs",
-              "RelativeDocumentMoniker": "BTLHSK\\Form1.Designer.cs",
-              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\Form1.Designer.cs",
-              "RelativeToolTip": "BTLHSK\\Form1.Designer.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAMAAAAAAAAAA==",
+              "Title": "FormMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormMenu.cs",
+              "RelativeDocumentMoniker": "BTLHSK\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormMenu.cs [Design]",
+              "RelativeToolTip": "BTLHSK\\FormMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T04:16:09.016Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T03:56:58.841Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Form1.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\Form1.cs",
-              "RelativeDocumentMoniker": "BTLHSK\\Form1.cs",
-              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\Form1.cs [Design]",
-              "RelativeToolTip": "BTLHSK\\Form1.cs [Design]",
+              "Title": "FormDangNhap.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormDangNhap.cs",
+              "RelativeDocumentMoniker": "BTLHSK\\FormDangNhap.cs",
+              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormDangNhap.cs [Design]",
+              "RelativeToolTip": "BTLHSK\\FormDangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-04T03:54:13.596Z",
+              "WhenOpened": "2024-09-20T03:06:47.669Z",
               "EditorCaption": " [Design]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\Program.cs",
+              "RelativeDocumentMoniker": "BTLHSK\\Program.cs",
+              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\Program.cs",
+              "RelativeToolTip": "BTLHSK\\Program.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAA+wDUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-12T10:02:36.157Z",
+              "EditorCaption": ""
             }
           ]
         }
