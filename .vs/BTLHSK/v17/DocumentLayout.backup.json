@@ -3,28 +3,16 @@
   "WorkspaceRootPath": "C:\\Users\\trung\\source\\repos\\BTLHSK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formmenu.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|C:\\Users\\trung\\source\\repos\\BTLHSK\\btlhsk\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formdangnhap.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\formtinhdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formtinhdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|C:\\Users\\trung\\source\\repos\\BTLHSK\\btlhsk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|C:\\Users\\trung\\source\\repos\\BTLHSK\\btlhsk\\formtinhdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formtinhdiem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\formdangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formdangnhap.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -34,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -46,70 +34,30 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "FormDangNhap.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormDangNhap.Designer.cs",
-              "RelativeDocumentMoniker": "BTLHSK\\FormDangNhap.Designer.cs",
-              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormDangNhap.Designer.cs*",
-              "RelativeToolTip": "BTLHSK\\FormDangNhap.Designer.cs*",
-              "ViewState": "AgIAAEoAAAAAAAAAAAAMwFsAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "FormMenu.cs [Design]",
+              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormMenu.cs",
+              "RelativeDocumentMoniker": "BTLHSK\\FormMenu.cs",
+              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormMenu.cs [Design]",
+              "RelativeToolTip": "BTLHSK\\FormMenu.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T03:16:47.063Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-20T03:56:58.841Z",
+              "EditorCaption": " [Design]"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "FormDangNhap.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormDangNhap.cs",
-              "RelativeDocumentMoniker": "BTLHSK\\FormDangNhap.cs",
-              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormDangNhap.cs*",
-              "RelativeToolTip": "BTLHSK\\FormDangNhap.cs*",
-              "ViewState": "AgIAAAUAAAAAAAAAAAASwBQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T03:16:05.73Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "FormDangNhap.cs [Design]",
               "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormDangNhap.cs",
               "RelativeDocumentMoniker": "BTLHSK\\FormDangNhap.cs",
-              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormDangNhap.cs [Design]*",
-              "RelativeToolTip": "BTLHSK\\FormDangNhap.cs [Design]*",
+              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormDangNhap.cs [Design]",
+              "RelativeToolTip": "BTLHSK\\FormDangNhap.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-20T03:06:47.669Z",
-              "EditorCaption": " [Design]"
+              "WhenOpened": "2024-09-20T03:06:47.669Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "FormTinhDiem.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormTinhDiem.cs",
-              "RelativeDocumentMoniker": "BTLHSK\\FormTinhDiem.cs",
-              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormTinhDiem.cs",
-              "RelativeToolTip": "BTLHSK\\FormTinhDiem.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T08:37:58.016Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "FormTinhDiem.cs [Design]",
-              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormTinhDiem.cs",
-              "RelativeDocumentMoniker": "BTLHSK\\FormTinhDiem.cs",
-              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormTinhDiem.cs [Design]",
-              "RelativeToolTip": "BTLHSK\\FormTinhDiem.cs [Design]",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-14T08:36:10.071Z",
-              "EditorCaption": " [Design]"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\Program.cs",
               "RelativeDocumentMoniker": "BTLHSK\\Program.cs",
@@ -117,8 +65,7 @@
               "RelativeToolTip": "BTLHSK\\Program.cs",
               "ViewState": "AgIAAAsAAAAAAAAAAAA+wDUAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-12T10:02:36.157Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-09-12T10:02:36.157Z"
             }
           ]
         }
