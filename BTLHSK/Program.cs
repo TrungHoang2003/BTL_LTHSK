@@ -49,6 +49,7 @@ namespace BTLHSK
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
+            //Application.Run(new FormNhanVien());
             Application.Run(new FormDangNhap());
            //bool run = true;
 

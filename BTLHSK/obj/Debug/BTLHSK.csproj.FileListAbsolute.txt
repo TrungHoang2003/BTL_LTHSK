@@ -7,7 +7,10 @@ C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.csproj.GenerateResour
 C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.csproj.CoreCompileInputs.cache
 C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.exe
 C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.pdb
-C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.Form1.resources
-C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.Form2.resources
-C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.FormTinhDiem.resources
 C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.FormDangNhap.resources
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.FormNhanVien.resources
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\EntityFramework.dll
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\EntityFramework.xml
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.csproj.Up2Date
