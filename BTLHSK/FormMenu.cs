@@ -16,5 +16,11 @@ namespace BTLHSK
         {
             InitializeComponent();
         }
+
+        private void menuNhanvien_Click(object sender, EventArgs e)
+        {
+            FormNhanVien formNV = new FormNhanVien();
+            formNV.ShowDialog();
+        }
     }
 }

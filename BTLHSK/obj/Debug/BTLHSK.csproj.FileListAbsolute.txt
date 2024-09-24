@@ -14,3 +14,7 @@ C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\EntityFramework.SqlServer.dl
 C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\EntityFramework.xml
 C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\EntityFramework.SqlServer.xml
 C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.csproj.Up2Date
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.FormPractice.resources
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\System.Configuration.ConfigurationManager.dll
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\bin\Debug\System.Configuration.ConfigurationManager.xml
+C:\Users\trung\source\repos\BTLHSK\BTLHSK\obj\Debug\BTLHSK.FormMenu.resources
