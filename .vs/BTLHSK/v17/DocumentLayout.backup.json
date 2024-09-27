@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\trung\\source\\repos\\BTLHSK\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|C:\\Users\\trung\\source\\repos\\BTLHSK\\btlhsk\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\formnhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formnhanvien.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\validatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\validatedata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\dataaccess.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|C:\\Users\\trung\\source\\repos\\BTLHSK\\btlhsk\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Bookmark",
@@ -38,46 +38,46 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "FormNhanVien.Designer.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormNhanVien.Designer.cs",
-              "RelativeDocumentMoniker": "BTLHSK\\FormNhanVien.Designer.cs",
-              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormNhanVien.Designer.cs",
-              "RelativeToolTip": "BTLHSK\\FormNhanVien.Designer.cs",
-              "ViewState": "AgIAAHAAAAAAAAAAAAASwIYAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T06:12:03.868Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ValidateData.cs",
-              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\ValidateData.cs",
-              "RelativeDocumentMoniker": "BTLHSK\\ValidateData.cs",
-              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\ValidateData.cs*",
-              "RelativeToolTip": "BTLHSK\\ValidateData.cs*",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAABQAAAA7AAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-09-24T04:40:30.662Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "FormNhanVien.cs",
               "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormNhanVien.cs",
               "RelativeDocumentMoniker": "BTLHSK\\FormNhanVien.cs",
               "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormNhanVien.cs",
               "RelativeToolTip": "BTLHSK\\FormNhanVien.cs",
-              "ViewState": "AgIAAJ4AAAAAAAAAAAAjwL0AAAA5AAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0BAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-09-23T13:44:23.212Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "ValidateData.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\ValidateData.cs",
+              "RelativeDocumentMoniker": "BTLHSK\\ValidateData.cs",
+              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\ValidateData.cs",
+              "RelativeToolTip": "BTLHSK\\ValidateData.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAswE4AAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-24T04:40:30.662Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DataAccess.cs",
+              "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\DataAccess.cs",
+              "RelativeDocumentMoniker": "BTLHSK\\DataAccess.cs",
+              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\DataAccess.cs",
+              "RelativeToolTip": "BTLHSK\\DataAccess.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-09-27T03:47:42.854Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "FormNhanVien.cs [Design]",
               "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormNhanVien.cs",
               "RelativeDocumentMoniker": "BTLHSK\\FormNhanVien.cs",
