@@ -79,7 +79,7 @@
             this.txtDangNhap.Location = new System.Drawing.Point(174, 38);
             this.txtDangNhap.Name = "txtDangNhap";
             this.txtDangNhap.Size = new System.Drawing.Size(234, 28);
-            this.txtDangNhap.TabIndex = 6;
+            this.txtDangNhap.TabIndex = 1;
             // 
             // groupBox1
             // 

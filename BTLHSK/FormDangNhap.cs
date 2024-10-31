@@ -1,11 +1,4 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.ComponentModel;
-using System.Data;
-using System.Drawing;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows.Forms;
 
 namespace BTLHSK
@@ -17,10 +10,13 @@ namespace BTLHSK
             InitializeComponent();
         }
 
-
         private void btnDangNhap_Click(object sender, EventArgs e)
         {
-                       
+            if (txtDangNhap.Text == "trung" && txtMatKhau.Text == "12345")
+            {
+                FormMenu formMenu = new FormMenu(txtDangNhap.Text);
+                formMenu.ShowDialog();
+            }
 
         }
     }

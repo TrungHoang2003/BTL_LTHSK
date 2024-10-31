@@ -10,6 +10,8 @@ using System.Windows.Forms;
 using System.Configuration;
 using System.Data.SqlClient;
 using System.Text.RegularExpressions;
+using BTLHSK.Reports;
+using CrystalDecisions.CrystalReports.Engine;
 
 
 namespace BTLHSK
@@ -113,7 +115,6 @@ namespace BTLHSK
         {
             ValidateData.kiemTraSo(txtLuong, errorLuong);
         }
-
         private void dgvNhanVien_CellClick(object sender, DataGridViewCellEventArgs e)
         {
             int hang = dgvNhanVien.CurrentCell.RowIndex;
@@ -125,7 +126,6 @@ namespace BTLHSK
             txtSDT.Text = dgvNhanVien.Rows[hang].Cells[4].Value.ToString();
             txtLuong.Text = dgvNhanVien.Rows[hang].Cells[5].Value.ToString();
         }
-
         private bool suaDuLieuNV(DataGridView data)
         {
             int i = 0;
@@ -181,7 +181,6 @@ namespace BTLHSK
                 btnTimkiem.Enabled = false;
             }
         }
-
         private void cbTenNV_CheckedChanged(object sender, EventArgs e)
         {
             if (cbTenNV.Checked)
@@ -201,7 +200,6 @@ namespace BTLHSK
                 btnTimkiem.Enabled = false;
             }
         }
-
         private void cbSdt_CheckedChanged(object sender, EventArgs e)
         {
             if (cbSdt.Checked)
@@ -265,6 +263,12 @@ namespace BTLHSK
                 }
             }
 
+        }
+
+        private void btnIn_Click(object sender, EventArgs e)
+        {
+            FormCrystal_NhanVien formCrystalNhanVien = new FormCrystal_NhanVien();
+            formCrystalNhanVien.ShowDialog();
         }
     }
 }

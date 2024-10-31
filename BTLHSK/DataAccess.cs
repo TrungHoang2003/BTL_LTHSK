@@ -1,4 +1,6 @@
-﻿using System;
+﻿using CrystalDecisions.CrystalReports.Engine;
+using CrystalDecisions.Windows.Forms;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
@@ -12,7 +14,62 @@ namespace BTLHSK
 {
     public static class DataAccess
     {
-        static string str = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
+        public static string str = ConfigurationManager.ConnectionStrings["constr"].ConnectionString;
+        static SqlConnection cnn = new SqlConnection();
+
+        public static void loadCrystalReportViewer(CrystalReportViewer crv, string filepath)
+        {
+            ReportDocument cryRpt = new ReportDocument();
+            cryRpt.Load(filepath);
+
+            crv.ReportSource = cryRpt;
+            crv.Refresh();
+        }
+        public static bool openConnection()
+        {
+            try
+            {
+                if (cnn.State == ConnectionState.Open)
+                {
+                    cnn.Close();
+                    cnn.ConnectionString = str;
+                    cnn.Open();
+                }
+            }
+            catch (Exception ex) { MessageBox.Show(ex.Message); return false; }
+            return true;
+        }
+
+        public static void loadDataGridView(DataGridView dataGridView, string query)
+        {
+            using (SqlConnection cnn = new SqlConnection(str))
+            {
+                try
+                {
+                    using (SqlCommand cmd = new SqlCommand(query, cnn))
+                    {
+                        cmd.CommandType = CommandType.Text;
+                        using (SqlDataAdapter da = new SqlDataAdapter(cmd))
+                        {
+                            DataTable dt = new DataTable();
+                            da.Fill(dt);
+                            dataGridView.DataSource = dt;
+                            dataGridView.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                        }
+                    }
+                }
+                catch (Exception ex) { MessageBox.Show(ex.Message); }
+            }
+
+        }
+
+        public static DataTable getTable(string query, SqlConnection connection)
+        {
+            SqlDataAdapter ad = new SqlDataAdapter(query, connection);
+            DataTable dt = new DataTable();
+            ad.Fill(dt);
+            return dt;
+        }
         public static DataTable importDataTable(DataTable dataTable, string query)
         {
             using (SqlConnection cnn = new SqlConnection(str))
@@ -32,26 +89,12 @@ namespace BTLHSK
             return dataTable;
         }
 
-        public static void loadDataGridView(DataGridView dataGridView, string query)
+        public static void loadComboBox(SqlCommand cmd, ComboBox cbb)
         {
-            using (SqlConnection cnn = new SqlConnection(str))
-            {
-                try
-                {
-                    using (SqlCommand cmd = new SqlCommand(query, cnn))
-                    {
-                        cmd.CommandType = CommandType.Text;
-                        using (SqlDataAdapter da = new SqlDataAdapter(cmd))
-                        {
-                            DataTable dt = new DataTable();
-                            da.Fill(dt);
-                            dataGridView.DataSource = dt;
-                        }
-                    }
-                }
-                catch (Exception ex) { MessageBox.Show(ex.Message); }
-            }
-
+            DataTable dataTable = new DataTable();
+            cbb.DataSource = dataTable;
+            cbb.ValueMember = dataTable.Columns[0].ColumnName;
+            cbb.DisplayMember = dataTable.Columns[1].ColumnName;
         }
     }
 }

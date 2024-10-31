@@ -102,7 +102,7 @@
             // 
             this.dateNgaysinh.Format = System.Windows.Forms.DateTimePickerFormat.Custom;
             this.dateNgaysinh.Location = new System.Drawing.Point(171, 140);
-            this.dateNgaysinh.Margin = new System.Windows.Forms.Padding(4);
+            this.dateNgaysinh.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.dateNgaysinh.Name = "dateNgaysinh";
             this.dateNgaysinh.Size = new System.Drawing.Size(232, 28);
             this.dateNgaysinh.TabIndex = 13;
@@ -244,6 +244,7 @@
             // 
             this.cbTenNV.AutoSize = true;
             this.cbTenNV.Location = new System.Drawing.Point(25, 102);
+            this.cbTenNV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbTenNV.Name = "cbTenNV";
             this.cbTenNV.Size = new System.Drawing.Size(147, 26);
             this.cbTenNV.TabIndex = 8;
@@ -255,6 +256,7 @@
             // 
             this.cbSdt.AutoSize = true;
             this.cbSdt.Location = new System.Drawing.Point(25, 140);
+            this.cbSdt.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbSdt.Name = "cbSdt";
             this.cbSdt.Size = new System.Drawing.Size(137, 26);
             this.cbSdt.TabIndex = 7;
@@ -265,7 +267,8 @@
             // cbMaNV
             // 
             this.cbMaNV.AutoSize = true;
-            this.cbMaNV.Location = new System.Drawing.Point(25, 61);
+            this.cbMaNV.Location = new System.Drawing.Point(25, 62);
+            this.cbMaNV.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.cbMaNV.Name = "cbMaNV";
             this.cbMaNV.Size = new System.Drawing.Size(139, 26);
             this.cbMaNV.TabIndex = 6;
@@ -275,7 +278,7 @@
             // 
             // txtSDT_timkiem
             // 
-            this.txtSDT_timkiem.Location = new System.Drawing.Point(178, 144);
+            this.txtSDT_timkiem.Location = new System.Drawing.Point(179, 144);
             this.txtSDT_timkiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtSDT_timkiem.Name = "txtSDT_timkiem";
             this.txtSDT_timkiem.Size = new System.Drawing.Size(188, 27);
@@ -283,7 +286,7 @@
             // 
             // txtTenNV_timkiem
             // 
-            this.txtTenNV_timkiem.Location = new System.Drawing.Point(178, 102);
+            this.txtTenNV_timkiem.Location = new System.Drawing.Point(179, 102);
             this.txtTenNV_timkiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtTenNV_timkiem.Name = "txtTenNV_timkiem";
             this.txtTenNV_timkiem.Size = new System.Drawing.Size(188, 27);
@@ -291,7 +294,7 @@
             // 
             // txtMaNV_timkiem
             // 
-            this.txtMaNV_timkiem.Location = new System.Drawing.Point(178, 61);
+            this.txtMaNV_timkiem.Location = new System.Drawing.Point(179, 62);
             this.txtMaNV_timkiem.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.txtMaNV_timkiem.Name = "txtMaNV_timkiem";
             this.txtMaNV_timkiem.Size = new System.Drawing.Size(188, 27);
@@ -322,7 +325,7 @@
             this.groupBox3.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.groupBox3.Name = "groupBox3";
             this.groupBox3.Padding = new System.Windows.Forms.Padding(3, 2, 3, 2);
-            this.groupBox3.Size = new System.Drawing.Size(1173, 70);
+            this.groupBox3.Size = new System.Drawing.Size(1215, 70);
             this.groupBox3.TabIndex = 3;
             this.groupBox3.TabStop = false;
             // 
@@ -357,8 +360,9 @@
             this.btnIn.Name = "btnIn";
             this.btnIn.Size = new System.Drawing.Size(125, 38);
             this.btnIn.TabIndex = 4;
-            this.btnIn.Text = "In DSNV";
+            this.btnIn.Text = "In báo cáo";
             this.btnIn.UseVisualStyleBackColor = true;
+            this.btnIn.Click += new System.EventHandler(this.btnIn_Click);
             // 
             // btnXoa
             // 
