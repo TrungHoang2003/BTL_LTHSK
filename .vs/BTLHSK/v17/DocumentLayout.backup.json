@@ -7,6 +7,14 @@
       "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|C:\\Users\\trung\\source\\repos\\BTLHSK\\btlhsk\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|C:\\Users\\trung\\source\\repos\\BTLHSK\\btlhsk\\formcrystal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formcrystal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|c:\\users\\trung\\source\\repos\\btlhsk\\btlhsk\\reports\\nhanvientheonam.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}",
       "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\reports\\nhanvientheonam.rpt||{C0EF7560-990E-4D61-B970-65A6096B6866}"
     },
@@ -17,14 +25,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|C:\\Users\\trung\\source\\repos\\BTLHSK\\btlhsk\\formcrystal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formcrystal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|C:\\Users\\trung\\source\\repos\\BTLHSK\\btlhsk\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formnhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|C:\\Users\\trung\\source\\repos\\BTLHSK\\btlhsk\\formcrystal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FE1B1995-ADEF-4B27-BA7A-2AAC476FE66D}|BTLHSK\\BTLHSK.csproj|solutionrelative:btlhsk\\formcrystal_nhanvien.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -50,7 +50,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "NhanVien.rpt",
               "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\Reports\\NhanVien.rpt",
               "RelativeDocumentMoniker": "BTLHSK\\Reports\\NhanVien.rpt",
@@ -62,7 +62,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "NhanVienTheoNam.rpt",
               "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\Reports\\NhanVienTheoNam.rpt",
               "RelativeDocumentMoniker": "BTLHSK\\Reports\\NhanVienTheoNam.rpt",
@@ -86,38 +86,38 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "FormCrystal_NhanVien.cs",
               "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormCrystal_NhanVien.cs",
               "RelativeDocumentMoniker": "BTLHSK\\FormCrystal_NhanVien.cs",
-              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormCrystal_NhanVien.cs*",
-              "RelativeToolTip": "BTLHSK\\FormCrystal_NhanVien.cs*",
-              "ViewState": "AgIAADMAAAAAAAAAAAAcwEkAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormCrystal_NhanVien.cs",
+              "RelativeToolTip": "BTLHSK\\FormCrystal_NhanVien.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAgwEkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-22T03:20:56.077Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 1,
               "Title": "FormNhanVien.cs",
               "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormNhanVien.cs",
               "RelativeDocumentMoniker": "BTLHSK\\FormNhanVien.cs",
               "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormNhanVien.cs",
               "RelativeToolTip": "BTLHSK\\FormNhanVien.cs",
-              "ViewState": "AgIAAPcAAAAAAAAAAAAcwAgBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-12T08:36:13.766Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "FormCrystal_NhanVien.cs [Design]",
               "DocumentMoniker": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormCrystal_NhanVien.cs",
               "RelativeDocumentMoniker": "BTLHSK\\FormCrystal_NhanVien.cs",
-              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormCrystal_NhanVien.cs [Design]*",
-              "RelativeToolTip": "BTLHSK\\FormCrystal_NhanVien.cs [Design]*",
+              "ToolTip": "C:\\Users\\trung\\source\\repos\\BTLHSK\\BTLHSK\\FormCrystal_NhanVien.cs [Design]",
+              "RelativeToolTip": "BTLHSK\\FormCrystal_NhanVien.cs [Design]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-24T08:29:28.428Z",
               "EditorCaption": " [Design]"

@@ -1,4 +1,4 @@
-﻿create database QuanLyCuaHangQuanAo
+﻿	create database QuanLyCuaHangQuanAo
 go 
 use QuanLyCuaHangQuanAo
 
@@ -106,6 +106,13 @@ VALUES	(N'NV01', N'Trần Khánh Hùng', '1991/03/27', N'Hà Tĩnh', '0953472181
 		(N'NV09', N'Trần Minh Trí', '1992/03/27', N'Ninh Bình', '0953472189', 8500000 ),
 		(N'NV10', N'Đặng Nhật Minh', '1991/03/27', N'Thái Bình', '0953472180', 9500000 );
 
+CREATE PROC pr_ChecKhoaNgoaiNV
+@sMaNV nvarchar(10)
+AS
+BEGIN
+    SELECT * FROM tblHoaDon WHERE tblHoaDon.sMaNV = @sMaNV
+END
+
 create proc pr_ThemNV 
 (
 	@MaNV nvarchar(50), 
@@ -126,6 +133,13 @@ BEGIN
 	WHERE @MaNV = sMaNV
 END
 
+CREATE PROC pr_CheckNV(@MaNV nvarchar(50))
+AS
+BEGIN
+SELECT * FROM tblNhanVien WHERE sMaNV = @MaNV
+END
+
+select * from vNhanVien		
 
 CREATE VIEW vNhanVien
 AS
@@ -137,6 +151,32 @@ SELECT sMaNV as 'Mã nhân viên',
 	   fLuongcoban as 'Lương cơ bản'
 FROM tblNhanVien
 
+CREATE PROC pr_SuaNV
+@MaNV nvarchar(10), @TenNV nvarchar(30), @NgaySinh date, @DiaChi nvarchar(50), @SDT varchar(12), @LuongCoBan float
+AS
+BEGIN
+	UPDATE tblNhanVien
+	SET sTenNV= @TenNV,  dNgaysinh = @NgaySinh, sDiachi = @DiaChi, sDienthoai = @SDT, fLuongcoban = @LuongCoBan 
+	WHERE sMaNV = @MaNV
+END
+
+create proc pr_DSNVtheoThang
+@thang int
+as
+select sMaNV, sTenNV, dNgaysinh, sDiachi, sDienthoai, fLuongcoban
+from tblNhanVien
+where Month(dNgaysinh) = @thang
+
+CREATE PROCEDURE pr_DSNVtheoNam
+    @nam INT -- Tham số là năm
+AS
+BEGIN
+    SELECT sMaNV, sTenNV, dNgaysinh, sDiachi, sDienthoai, fLuongcoban
+    FROM tblNhanVien
+    WHERE YEAR(dNgaysinh) = @nam; -- So sánh theo năm
+END
+
+execute pr_DSNVtheoNam @nam = 1991
 
 ------------------------------HÓA ĐƠN-----------------------------
 CREATE TABLE tblHoaDon
@@ -190,6 +230,10 @@ VALUES	( N'HD09', N'SP02', 80000, 2 ),
 		( N'HD03', N'SP08', 130000, 1 );
 
 SELECT * FROM tblChiTietHoaDon
+
+create view vHoaDon
+AS
+SELECT sSoHD AS N'Mã hóa đơn', sMaNV AS N'Mã nhân viên', sMaKH AS N'Mã khách hàng', dNgaymuaSP as N'Ngày mua sản phẩm' from tblHoaDon
 
 create proc them_SanPham
 (
