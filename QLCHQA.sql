@@ -204,6 +204,12 @@ VALUES	( N'HD01', N'NV01', N'KH10', '2023/01/01' ),
 
 SELECT * FROM tblHoaDon
 
+CREATE PROC pr_CheckHD(@MaHD nvarchar(50))
+AS
+BEGIN
+SELECT * FROM tblHoaDon WHERE sSoHD = @MaHD
+END
+
  ------------------------------CHI TIẾT HÓA ĐƠN-----------------------------
 CREATE TABLE tblChiTietHoaDon
 (

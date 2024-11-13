@@ -19,7 +19,7 @@ namespace BTLHSK
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new FormNhanVien());
+            Application.Run(new FormHoaDon());
            // Application.Run(new FormCrystal_NhanVien());
             //bool run = true;
 

@@ -63,13 +63,6 @@ namespace BTLHSK
 
         }
 
-        public static DataTable getTable(string query, SqlConnection connection)
-        {
-            SqlDataAdapter ad = new SqlDataAdapter(query, connection);
-            DataTable dt = new DataTable();
-            ad.Fill(dt);
-            return dt;
-        }
         public static DataTable importDataTable(DataTable dataTable, string query)
         {
             using (SqlConnection cnn = new SqlConnection(str))
